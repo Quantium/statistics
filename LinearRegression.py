@@ -25,3 +25,12 @@ print "Giving the data set"
 print x_test
 print "The predictions are"
 print predictions
+
+#Lets plot this thing
+
+plt.scatter(x_train, y_train,color="b")
+plt.plot(x_test,predictions,color='black',linewidth=3)
+
+plt.xlabel('father heigth')
+plt.ylabel('son heigth')
+plt.show()
