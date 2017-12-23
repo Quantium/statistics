@@ -19,6 +19,7 @@ lm.fit(x_train, y_train)
 
 #Testing differents parent heigth to predict sons heigth data
 x_test = [[72.8],[61.1],[67.4],[70.2],[75.6],[60.2],[65.3],[59.2]]
+#x_test = [[72.8]]
 
 predictions = lm.predict(x_test)
 print "Giving the data set"
