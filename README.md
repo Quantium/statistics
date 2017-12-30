@@ -63,7 +63,9 @@ The predictions are
 ![alt Linear Regression Plot](LinearRegression.png "Linear Regression Plot")
 
 ### Volcanic eruptions
-This example is a K-means analysis of the volcanic eruptions duration and waiting time until the next eruption. The objective is to cluster a particular eruption
+This example is a K-means analysis of the volcanic eruptions duration and waiting time until the next eruption. The objective is to cluster a particular eruption.
+
+You can change the number of clusters in the variable **k** after the imports part in the *LinearRegression.py* file
 
 #### Execution
 
