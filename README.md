@@ -65,6 +65,8 @@ The predictions are
 ### Volcanic eruptions
 This example is a K-means analysis of the volcanic eruptions duration and waiting time until the next eruption. The objective is to cluster a particular eruption.
 
+The dataset was obtained in this link https://archive.ics.uci.edu/ml/datasets/car+evaluation
+
 You can change the number of clusters in the variable **k** after the imports part in the *LinearRegression.py* file
 
 #### Execution
@@ -78,3 +80,14 @@ And you'll see an output like:
 `[0 0 1 0 1 0]`
 
 ![alt K-mean cluster](KmeansClustering.png "K-mean cluster")
+
+### Cars
+
+This example use a Tree Decision Tree to Classify the cars according to the given data.
+
+The dataset comes from https://archive.ics.uci.edu/ml/datasets/car+evaluation and its changed a little bit. I just switch string for numbers using find and replace :p.
+
+####Execution
+
+The execution for this example is the same as is for the other ones
+`pytnon DecisionTree.py`
